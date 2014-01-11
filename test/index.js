@@ -7,9 +7,9 @@
  * @todo: 
  * @changelog: 
  */
-var D = require("../");
+var D = require("../")();
 
-D.add("./moduleA", require("./module"));
+D.add("./moduleA", require("./moduleA"));
 
 var A = D.require("./moduleA");
 
