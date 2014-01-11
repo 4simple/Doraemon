@@ -1,4 +1,4 @@
 Doraemon
 ========
 
-A module and http API managment tool
+A module and http API mock tool

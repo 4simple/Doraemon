@@ -17,5 +17,8 @@ module.exports = exports = {
             console.log("Wahaha!");
         },
         hehe: "hehe"
+    },
+    data: {
+        "time": "2014-01-12 04:40:56"
     }
 };

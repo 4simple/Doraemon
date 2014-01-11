@@ -7,12 +7,14 @@
  * @todo: 
  * @changelog: 
  */
-var D = require("../")({mock: true});
+var path = require("path");
+var D = require("../")({mock: true, dataPath: path.join(__dirname, "data")});
 
-D.add("./moduleA", require("./moduleA"));
+D.add("moduleA", require("./moduleA"));
 
-var A = D.require("./moduleA");
+var A = D.require("moduleA");
 
-
-A.say("world!");
-console.log(A.name);
+//console.log(A.name);
+//console.log(A.data);
+console.log(A.say());
+console.log(A.sub.smile());
