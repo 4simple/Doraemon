@@ -7,7 +7,7 @@
  * @todo: 
  * @changelog: 
  */
-var D = require("../")(true);
+var D = require("../")({mock: true});
 
 D.add("./moduleA", require("./moduleA"));
 
@@ -15,4 +15,4 @@ var A = D.require("./moduleA");
 
 
 A.say("world!");
-A.sub.smile("world!");
+console.log(A.name);
