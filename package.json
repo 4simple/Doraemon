@@ -1,0 +1,23 @@
+{
+  "name": "doraemon",
+  "version": "0.1.0",
+  "description": "A module and http API managment tool.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:4simple/Doraemon.git"
+  },
+  "keywords": [
+    "Doraemon",
+    "mock"
+  ],
+  "author": "wondger@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/4simple/Doraemon/issues"
+  },
+  "homepage": "https://github.com/4simple/Doraemon"
+}
