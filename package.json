@@ -1,6 +1,6 @@
 {
   "name": "doraemon",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "A module and http API mock tool.",
   "main": "index.js",
   "scripts": {
