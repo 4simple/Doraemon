@@ -1,6 +1,6 @@
 {
   "name": "doraemon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A module and http API mock tool.",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/4simple/Doraemon/issues"
   },
-  "homepage": "https://github.com/4simple/Doraemon"
+  "homepage": "https://github.com/4simple/Doraemon",
+  "dependencies": {
+    "q": "1.0.0"
+  }
 }

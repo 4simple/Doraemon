@@ -7,6 +7,8 @@
  * @todo: 
  * @changelog: 
  */
+var Q = require("q");
+
 module.exports = exports = {
     name: "moduleA",
     say: function() {
@@ -15,10 +17,17 @@ module.exports = exports = {
     sub: {
         smile: function() {
             console.log("Wahaha!");
-        },
-        hehe: "hehe"
+        }
     },
-    data: {
-        "time": "2014-01-12 04:40:56"
+    async: function() {
+        var deferred = Q.defer();
+        Q.delay(2000).then(function() {
+            deferred.resolve({
+                success: true,
+                time: "2014-01-12 15:54:15"
+            });
+        });
+
+        return deferred.promise;
     }
 };
