@@ -11,7 +11,7 @@ You can use Doraemon to mock unfinished module api data.
 
 ## Usage
 
-### define your module
+### define module
 
     // ./moduleA.js
     module.exports = {
