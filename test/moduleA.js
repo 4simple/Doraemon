@@ -12,7 +12,11 @@ var Q = require("q");
 module.exports = exports = {
     name: "moduleA",
     say: function() {
-        console.log("Hello, I am " + this.name + ".");
+        var deferred = Q.defer();
+
+        deferred.resolve("hello, world!");
+        
+        return deferred.promise;
     },
     sub: {
         smile: function() {
