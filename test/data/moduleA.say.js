@@ -1,3 +1,1 @@
-module.exports = exports = {
-    say: "say waht"
-};
+module.exports = exports = "hello, world!"
