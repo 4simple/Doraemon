@@ -9,7 +9,7 @@
  */
 var Q = require("q");
 
-module.exports = exports = {
+var mod = {
     name: "moduleA",
     say: function() {
         var deferred = Q.defer();
@@ -35,3 +35,11 @@ module.exports = exports = {
         return deferred.promise;
     }
 };
+
+mod.a = {};
+mod.b = {};
+
+mod.a.a = mod.b.a = mod.a
+mod.a.b = mod.b.b = mod.b
+
+module.exports = exports = mod;
