@@ -1,6 +1,8 @@
 Doraemon
 ========
 
+[![Build Status](https://travis-ci.org/4simple/Doraemon.png?branch=master)](https://travis-ci.org/4simple/Doraemon)
+
 A module API data mock tool.
 
 You can use Doraemon to mock unfinished module api data.
