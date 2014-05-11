@@ -19,11 +19,10 @@ var A = D.require("moduleA");
 //console.log(A.name);
 //console.log(A.data);
 A.say().then(function(data) {
-    console.log("say:")
     console.log(data);
-});
-
-A.async().then(function(data) {
+    return A.async()
+})
+.then(function(data) {
     console.log("async:")
     console.log(data);
 })

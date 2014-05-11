@@ -45,6 +45,6 @@ You can use Doraemon to mock unfinished module api data.
 
 #### mock file
 
-./__MOCKS__/moduleA.say.js
+./\_\_MOCKS\_\_/moduleA.say.js
 
     module.exports = exports = "hello, world!";
